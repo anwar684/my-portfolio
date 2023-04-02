@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import Card from "./components/card/page";
+import Card from "./components/card/page1";
 import NameCard from "./components/name_card/page";
 import Link from "next/link";
 
@@ -21,9 +21,9 @@ export default function Home() {
 
       <div className="lg:w-[70%] flex flex-wrap justify-evenly lg:justify-between ">
         <NameCard />
-        <Card title="ABOUT ME" link="/about" />
-        <Card title="MY PORTFOLIO" link="/portfolio" />
-        <Card title="GETIN TOUCH" link="/contacts" />
+        <Card titles="ABOUT ME" links="/about" />
+        <Card titles="MY PORTFOLIO" links="/portfolio" />
+        <Card titles="GETIN TOUCH" links="/contacts" />
       </div>
     </div>
   );

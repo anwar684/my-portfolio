@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Head from "../components/heading/page";
+import Head from "../components/heading/page1";
 import styles from "./page.module.css";
 import Tabs from "../components/Tabs/page";
 import { useRouter } from "next/navigation";

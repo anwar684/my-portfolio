@@ -5,9 +5,9 @@ import { useState } from "react";
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import Degree from "../education/page";
-import Experience from "../experience/page";
-import SkillStars from "../skills/page";
+import Degree from "../education/page1";
+import Experience from "../experience/page1";
+import SkillStars from "../skills/page1";
 
 type Props = {};
 

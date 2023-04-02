@@ -2,8 +2,8 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 import Image from "next/image";
-import Head from "../components/heading/page";
-import Form from "../components/form/page";
+import Head from "../components/heading/page1";
+import Form from "../components/form/page1";
 
 type Props = {};
 
